@@ -1,0 +1,6 @@
+{
+    "orderNumberFilter": {
+        "filterLabelText": "Order number",
+        "filterPlaceholderText": "Select order number"
+    }
+}

@@ -1,0 +1,10 @@
+{% block sw_order_list_sidebar_filter %}
+    <sw-sidebar-filter-panel
+        entity="customer"
+        :store-key="storeKey"
+        :filters="getAllFilters"
+        :defaults="defaultFilters"
+        :active-filter-number="activeFilterNumber"
+        @criteria-changed="updateCriteria"
+    />
+{% endblock %}

@@ -1,0 +1,19 @@
+{
+  "name": "moonshiner/order-number-filter",
+  "description": "A plugin for filtering orders by their order number",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "OrderNumberFilter\\": "src/"
+    }
+  },
+  "extra": {
+    "plugin-icon": "src/Resources/config/plugin.png",
+    "shopware-plugin-class": "OrderNumberFilter\\OrderNumberFilter",
+    "label": {
+      "de-DE": "Order Number Filter",
+      "en-GB": "Order Number Filter"
+    }
+  }
+}
